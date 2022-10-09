@@ -102,7 +102,7 @@ domtoimage.toPng(pusheenNode).then(function (dataUrl) {
 });
 var canvasToPngButton = document.getElementById('canvas-to-png');
 canvasToPngButton.onclick = function (e) {
-    domtoimage.toPng(canvasNode).then(function (dataUrl) {
+    domtoimage.toJpeg(canvasNode).then(function (dataUrl) {
         var img = new Image();
         img.src = dataUrl;
         if (canvasOutput) {
