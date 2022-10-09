@@ -1,0 +1,21 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr [col-start]);
+  border: 2px solid red;
+}
+
+.item {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background: lightgrey;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: grey;
+}
+
+.dragging {
+  opacity: .5;
+}
