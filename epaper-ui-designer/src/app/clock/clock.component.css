@@ -1,0 +1,21 @@
+img[src$=".svg"] {
+    height: 12rem;
+    width: 12rem;
+}
+
+.inline {
+    display: flex;
+    max-width: fit-content;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.inline > h1 {
+    font-size: 12rem;
+    display: inline-block;
+    margin: 0;
+    margin-left: 2rem;
+}
